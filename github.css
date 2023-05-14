@@ -1,0 +1,112 @@
+/*body styles*/
+body {
+    background-color: #FCF7C7;
+    background-position: center;
+    margin: 0;
+    color: black;
+}
+
+.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+/*floating styles*/
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+ul.b {
+    list-style-type: disc;
+    height:300px;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+
+}
+
+
+
+ li {
+    background-color: transparent;
+    font-size: 20px;
+    font-family: monospace;
+     color: black;
+
+}
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 33%;
+
+}
+section#rightColumn {
+    float: right;
+    width: 67%;
+
+}
+h1 {
+  color:black;
+  text-align: left;
+  background-color:#76C8B4 ;
+}
+h2 {
+    color: #FF5B7A;
+    text-align: left;
+    background-color: #E8C1CB;
+    font-size: 25px;
+}
+h3 {
+    font-size:25px;
+    text-align: left;
+    color: #FF5B7A;
+
+
+}
+p {
+  font-family: Andale Mono;
+  font-size: 20px;
+  color: darkblue;
+  background-color:#76C8B4;
+  text-align: left;
+
+}
+p.demo {
+    background-color: transparent;
+}
+
+
+/* link styles*/
+
+a {
+    display: block;
+    display: inline;
+    color: mediumpurple;
+    text-align:center;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+li.poss{
+  float: left;
+}
